@@ -61,14 +61,14 @@ def visualize_init(A,centroid):
     plt.ylabel('SepalWidthCm')
     for i in range(len(centroid)):
         plt.scatter(centroid[i][0], centroid[i][1], c= 'red')
+
     plt.show()
+
     return 0
 
 # visualize clustering data
 def clustering(clustered_data,K,centroid):
-    #[[4.57173161 3.31167122]  = [x,y]centroid
-    #[5.26815603 3.68021424]
-    #[7.10566348 4.0821375 ]]
+
     x = []
     y = []
     #c = ['spring', 'summer', 'autumn']
@@ -105,13 +105,14 @@ if __name__ == '__main__':
     plt.show()
 
 
+
     #iteration
-    for i in range(20):
+    for j in range(10):
         centroid = centroid2
 
         closest_index = closest(feature, K, centroid)
         pts_and_class = assign_class(feature, closest_index)
-        visualize_init(pts_and_class, centroid)
+        #visualize_init(pts_and_class, centroid)
 
         centroid_x = []
         centroid_y = []
