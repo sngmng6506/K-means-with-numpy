@@ -14,3 +14,7 @@
 ![](./image/3.png)
 ![](./image/4.png)
 ![](./image/5.png)
+
+## Comment 
+
+* I just chose iteration as a hyperparameter but you can be modify it to iterate until under threshold by defining a error function.
