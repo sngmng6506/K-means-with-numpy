@@ -45,7 +45,7 @@ A from-scratch implementation of the **K-Means Clustering** algorithm using **Nu
 1. Ensure `iris.csv` is in the project directory.
 2. Run the script:
    ```bash
-   python kmeans_scratch.py
+   python main.py
 
 
 
