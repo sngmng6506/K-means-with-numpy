@@ -36,7 +36,7 @@ A from-scratch implementation of the **K-Means Clustering** algorithm using **Nu
 ---
 
 ## 📂 Project Structure
-- `kmeans_scratch.py`: Main script containing the algorithm implementation and visualization logic.
+- `main.py`: Main script containing the algorithm implementation and visualization logic.
 - `iris.csv`: Dataset used for clustering experiments.
 
 ---
